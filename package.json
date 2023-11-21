@@ -12,7 +12,7 @@
 
     "beautiful": "prettier --single-quote --trailing-comma all --write 'src/**/*.{js,json,scss}'",
 
-    "start": "nodemon SRC/index.js",
+    "start": "node SRC/index.js",
 
     "watch": "node-sass -w SRC/Resouses/SCSS/ -o SRC/Resouses/public/css/",
 
